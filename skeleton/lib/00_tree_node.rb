@@ -22,6 +22,7 @@ class PolyTreeNode
     # def inspect
     #     {'value' => @value, 'parent' => @parent.value}.inspect
     # end
+    # 
 
     def add_child(child_node)
         child_node.parent = self
